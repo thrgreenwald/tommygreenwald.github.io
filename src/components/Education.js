@@ -50,9 +50,11 @@ function Education() {
             direction="row"
             alignItems="center"
             sx={{justifyContent: {xs: "center", md: "flex-start"},
-            marginLeft: {xs: 5, md: 0}}}>
+            marginLeft: {xs: 3, md: 0}}}>
                 <Grid item xs={1}>
-                    <SchoolIcon fontSize="large" sx={{paddingTop: 0.75}}/>
+                    <SchoolIcon fontSize="large" sx={{
+                        display: {xs: "none", sm: "flex"},
+                        paddingTop: 0.75}}/>
                 </Grid>
                 <Grid item xs={5}>
                     <Typography variant="h5" fontWeight="bold">Northeastern University</Typography>
@@ -61,16 +63,26 @@ function Education() {
                     <LocationOnIcon fontSize="large" sx={{paddingTop: 0.75}}/>
                 </Grid>
                 <Grid item xs={5}>
-                    <Typography variant="h5">Boston, MA</Typography>
+                    <Typography variant="h5" sx={{ width: {xs:"85%", md: "95%"}}}>
+                        Boston, MA
+                    </Typography>
                 </Grid>
                 <Grid item xs={1}>
-                    <ComputerIcon fontSize="large" sx={{paddingTop: 0.75}}/>
+                    <ComputerIcon fontSize="large" sx={{
+                        display: {xs: "none", sm: "flex"},
+                        paddingTop: 0.75}}/>
                 </Grid>
                 <Grid item xs={11}>
-                    <Typography variant="h5" fontStyle="italic">Khoury College of Computer Science</Typography>
+                    <Typography variant="h5" 
+                    fontStyle="italic" 
+                    sx={{ width: {xs:"85%", md: "95%"}}}>
+                        Khoury College of Computer Science
+                    </Typography>
                 </Grid>
                 <Grid item xs={1} sx={{marginTop: 1.5, marginBottom: 1.5}}>
-                    <MenuBookIcon fontSize="large" sx={{paddingTop: 0.75}}/>
+                    <MenuBookIcon fontSize="large" sx={{
+                        display: {xs: "none", sm: "flex"},
+                        paddingTop: 0.75}}/>
                 </Grid>
                 <Grid item xs={11} sx={{marginTop: 1.5, marginBottom: 1.5}}>
                     <Typography variant="h5" sx={{ width: {xs:"85%", md: "95%"}}}>
@@ -83,20 +95,24 @@ function Education() {
                     })}</Typography>
                 </Grid>
                 <Grid item xs={1}>
-                    <TrophyIcon fontSize="large" sx={{paddingTop: 0.75}}/>
+                    <TrophyIcon fontSize="large" sx={{
+                        display: {xs: "none", sm: "flex"},
+                        paddingTop: 0.75}}/>
                 </Grid>
                 <Grid item xs={11}>
-                    <Typography variant="h5"> 
+                    <Typography variant="h5" sx={{ width: {xs:"85%", md: "95%"}}}> 
                         <Box fontWeight="bold" display="inline">
                         Honors: </Box>
                         Dean's Scholar, Dean's List
                     </Typography>
                 </Grid>
                 <Grid item xs={1}>
-                    <FlagIcon fontSize="large" sx={{paddingTop: 0.75}}/>
+                    <FlagIcon fontSize="large" sx={{
+                        display: {xs: "none", sm: "flex"},
+                        paddingTop: 0.75}}/>
                 </Grid>
                 <Grid item xs={11}>
-                    <Typography variant="h5"> 
+                    <Typography variant="h5" sx={{ width: {xs:"85%", md: "95%"}}}> 
                         <Box fontWeight="bold" display="inline">
                         GPA: </Box>
                         3.6/4.0

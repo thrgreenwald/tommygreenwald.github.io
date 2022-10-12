@@ -85,11 +85,10 @@ function Header(props) {
                     variant="h5"
                     component="a"
                     color="inherit"
-                    align="center"
+                    align="left"
                     href="/"
                     noWrap
-                    sx={{ flexGrow: 1, display: {xs: "flex", md: "none"},
-                    ml: 6, textDecoration: "none"}}
+                    sx={{ flexGrow: 1, display: {xs: "flex", md: "none"}, textDecoration: "none"}}
                     >
                     {title}
                     </Typography>
