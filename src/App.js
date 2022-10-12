@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Helmet>
-        <title>My App</title>
+        <title>Tom Greenwald</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Helmet>
       <BrowserRouter>
