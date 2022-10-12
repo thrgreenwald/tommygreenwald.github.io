@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tgreenwald.com",
+  "homepage": "https://tommygreenwald.github.io/tommygreenwald.github.io",
   "dependencies": {
     "-": "0.0.1",
     "@emotion/react": "^11.10.4",
@@ -28,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
