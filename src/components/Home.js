@@ -28,7 +28,7 @@ function Home() {
     <React.Fragment>
         <ThemeProvider theme={theme}>
             <Container maxWidth="lg">
-                <Header title="Not Tom Greenwald" sections={sections} />
+                <Header title="Tom Greenwald" sections={sections} />
                 <Container sx={{textAlign: "center", position: "relative"}}>
                     <Box component="img" src={Tetons} sx={{
                         maxWidth: "100%", 
